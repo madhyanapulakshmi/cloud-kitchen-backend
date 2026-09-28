@@ -13,7 +13,7 @@ import cloud_kitchen.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://cloud-kitchen-frontend-chi.vercel.app"})
 public class AuthController {
 
     private final AuthService authService;

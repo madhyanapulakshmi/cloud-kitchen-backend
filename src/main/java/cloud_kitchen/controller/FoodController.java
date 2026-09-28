@@ -20,7 +20,7 @@ import cloud_kitchen.service.FoodService;
 
 @RestController
 @RequestMapping("/api/foods")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://cloud-kitchen-frontend-chi.vercel.app"})
 public class FoodController {
 
     private final FoodService foodService;
