@@ -13,7 +13,7 @@ import cloud_kitchen.repository.FoodRepository;
 public class FoodService {
 
     private static final String BACKEND_URL =
-            "http://localhost:8081";
+        "https://cloud-kitchen-backend-production.up.railway.app";
 
     private final FoodRepository foodRepository;
 
